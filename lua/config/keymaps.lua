@@ -10,7 +10,6 @@ vim.keymap.set("n", "<leader><leader>x", "<cmd>source %<CR>", { desc = "source c
 -- copy and paste from system clipboard
 vim.keymap.set({ "n", "v" }, "<leader>y", '"+y', { desc = "copy to system clipboard" })
 vim.keymap.set("n", "<leader>Y", '"+Y', { desc = "copy line to system clipboard" })
-vim.keymap.set({ "n", "v"}, "<leader>p", '"+p', { noremap = true, silent = true, desc = "Paste from clipboard" })
+vim.keymap.set({ "n", "v" }, "<leader>p", '"+p', { noremap = true, silent = true, desc = "Paste from clipboard" })
 
 vim.keymap.set("x", "<leader>P", '"_dP', { desc = "Paste over selection without erasing unnamed register" })
-

@@ -30,5 +30,4 @@ return {
       colorscheme = "gruvbox",
     },
   },
-
 }
