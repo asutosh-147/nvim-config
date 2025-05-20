@@ -9,6 +9,9 @@ return {
       prettier = {
         require_cwd = false,
       },
+      prettierd = {
+        require_cwd = false,
+      },
       stylua = {
         require_cwd = false,
       },
