@@ -13,3 +13,5 @@ vim.keymap.set("n", "<leader>Y", '"+Y', { desc = "copy line to system clipboard"
 vim.keymap.set({ "n", "v", "x" }, "<leader>p", '"+p', { noremap = true, silent = true, desc = "Paste from clipboard" })
 
 vim.keymap.set("x", "<leader>P", '"_dP', { desc = "Paste over selection without erasing unnamed register" })
+vim.keymap.set("n", "]<Space>", "o<esc>k", { desc = "add a blank line below" })
+vim.keymap.set("n", "[<Space>", "O<esc>j", { desc = "add a blank line above", silent = true })
