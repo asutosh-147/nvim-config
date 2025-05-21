@@ -14,6 +14,8 @@ vim.keymap.set({ "n", "v" }, "<leader>p", '"+p', { noremap = true, silent = true
 
 vim.keymap.set("x", "<leader>P", '"_dP', { desc = "Paste over selection without erasing unnamed register" })
 vim.keymap.set("n", "<leader>(", "viw<esc>a)<esc>hbi(<esc>", { desc = "add () surrounding curr word" })
+vim.keymap.set("n", "<leader>[", "O<esc>j", { desc = "add blank line above current" })
+vim.keymap.set("n", "<leader>]", "o<esc>k", { desc = "add blank line above above" })
 -- make insert mode start with auto indent
 vim.keymap.set("n", "i", function()
   return string.match(vim.api.nvim_get_current_line(), "%g") == nil and "cc" or "i"
