@@ -4,6 +4,7 @@ return {
     formatters_by_ft = {
       javascript = { "prettier" },
       typescript = { "prettier", "prettierd", "biome", stop_after_first = true },
+      yaml = { "prettier", lsp_format = "fallback" },
     },
     formatters = {
       prettier = {
