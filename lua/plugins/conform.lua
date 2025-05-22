@@ -5,6 +5,7 @@ return {
       javascript = { "prettier" },
       typescript = { "prettier", "prettierd", "biome", stop_after_first = true },
       yaml = { "prettier", lsp_format = "fallback" },
+      go = { "goimports", "gofmt" },
     },
     formatters = {
       prettier = {
