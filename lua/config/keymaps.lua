@@ -12,7 +12,7 @@ vim.keymap.set({ "n", "v" }, "<leader>y", '"+y', { desc = "copy to system clipbo
 vim.keymap.set("n", "<leader>Y", '"+Y', { desc = "copy line to system clipboard" })
 vim.keymap.set({ "n", "v" }, "<leader>p", '"+p', { noremap = true, silent = true, desc = "Paste from clipboard" })
 
-vim.keymap.set("x", "<leader>P", '"_dp', { desc = "Paste over selection without erasing unnamed register" })
+vim.keymap.set("x", "<leader>P", '"_dP', { desc = "Paste over selection without erasing unnamed register" })
 vim.keymap.set("n", "]<Space>", "o<esc>k", { desc = "add a blank line below" })
 vim.keymap.set("n", "[<Space>", "O<esc>j", { desc = "add a blank line above", silent = true })
 vim.keymap.set("n", "<leader>(", "viw<esc>a)<esc>hbi(<esc>", { desc = "add () surrounding curr word" })
