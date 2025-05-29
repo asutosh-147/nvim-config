@@ -1,5 +1,11 @@
 return {
   {
+    "catppuccin/nvim",
+    opts = {
+      transparent_background = true,
+    },
+  },
+  {
     {
       "ellisonleao/gruvbox.nvim",
       opts = {
@@ -27,7 +33,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "gruvbox",
+      colorscheme = "catppuccin-frappe",
     },
   },
 }
