@@ -1,5 +1,7 @@
 return {
   "snacks.nvim",
+
+  -- NOTE: keympas
   keys = {
     {
       "<leader>rf",
