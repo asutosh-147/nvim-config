@@ -8,6 +8,7 @@ return {
       typescriptreact = { "prettier", "prettierd", "biome", stop_after_first = true },
       yaml = { "prettier", lsp_format = "fallback" },
       go = { "goimports", "gofmt" },
+      sql = { "sql_formatter", lsp_format = "fallback" },
     },
     formatters = {
       prettier = {
