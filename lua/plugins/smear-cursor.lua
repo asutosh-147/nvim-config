@@ -17,6 +17,7 @@ return {
     stiffness_insert_mode = 0.6,
     trailing_stiffness_insert_mode = 0.6,
     distance_stop_animating = 0.5,
-    -- cursor_color = "#d3cdc3",
+    cursor_color = "none",
+    hide_target_hack = true,
   },
 }
