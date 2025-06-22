@@ -12,18 +12,18 @@ return {
 ██║ ╚████║███████╗╚██████╔╝ ╚████╔╝ ██║██║ ╚═╝ ██║
 ╚═╝  ╚═══╝╚══════╝ ╚═════╝   ╚═══╝  ╚═╝╚═╝     ╚═╝]],
       },
-      sections = {
-        { section = "header" },
-        { section = "keys", gap = 1, padding = 1 },
-        { section = "startup" },
-        {
-          section = "terminal",
-          cmd = "cat ~/.config/nvim/ascii.txt",
-          pane = 2,
-          indent = 5,
-          height = 70,
-        },
-      },
+      -- sections = {
+      --   { section = "header" },
+      --   { section = "keys",   gap = 1, padding = 1 },
+      --   { section = "startup" },
+      --   {
+      --     section = "terminal",
+      --     cmd = "cat ~/.config/nvim/ascii.txt",
+      --     pane = 2,
+      --     -- indent = 5,
+      --     -- height = 170,
+      --   },
+      -- },
     },
   },
 }
