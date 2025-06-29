@@ -1,0 +1,8 @@
+customCommands:
+  - key: "<c-j>"
+    context: "global"
+    command: "git pull --rebase origin {{.CheckedOutBranch.Name}}"
+    description: "origin rebase pull of current branch"
+    loadingText: "Rebasing Current Branch..."
+    after:
+      checkForConflicts: true
