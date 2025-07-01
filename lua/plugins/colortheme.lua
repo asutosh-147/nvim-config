@@ -2,14 +2,14 @@ return {
   {
     "catppuccin/nvim",
     opts = {
-      transparent_background = true,
+      -- transparent_background = true,
     },
   },
   {
     {
       "ellisonleao/gruvbox.nvim",
       opts = {
-        transparent_mode = true,
+        -- transparent_mode = true,
       },
     },
   },
