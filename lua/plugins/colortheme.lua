@@ -17,23 +17,28 @@ return {
   {
     "folke/tokyonight.nvim",
     opts = {
-      transparent = true,
+      -- transparent = true,
       styles = {
         sidebars = "transparent",
         floats = "transparent",
       },
     },
   },
-
   {
-    { "shaunsingh/nord.nvim" },
+    "rebelot/kanagawa.nvim",
+    opts = {
+      theme = "wave",
+      background = {
+        dark = "dragon",
+      },
+    },
   },
 
   -- configuring lazy to load gruvbox
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "catppuccin-frappe",
+      colorscheme = "catppuccin",
     },
   },
 }
