@@ -20,3 +20,6 @@ vim.g.clipboard = {
   },
   cache_enabled = true,
 }
+
+-- disable the animation
+vim.g.snacks_animate = false
