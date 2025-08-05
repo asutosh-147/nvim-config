@@ -14,5 +14,8 @@ return {
       "js-debug-adapter",
       "eslint-lsp",
     },
+    -- registries = {
+    --   "github:mason-org/mason-registry@2025-08-05-clear-drum",
+    -- },
   },
 }
