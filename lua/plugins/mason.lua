@@ -7,6 +7,7 @@ return {
       "gopls",
       "goimports",
       "lua-language-server",
+      "clangd",
       "vtsls",
       "prettierd",
       "delve",
