@@ -7,7 +7,7 @@ return {
   },
   opts = {
     -- configuration goes here
-    lang = "cpp",
+    lang = "golang",
     arg = "lc",
   },
 }
