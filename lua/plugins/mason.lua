@@ -12,6 +12,7 @@ return {
       "prettierd",
       "delve",
       "tailwindcss-language-server",
+      "css-lsp",
       "js-debug-adapter",
       "eslint-lsp",
     },
