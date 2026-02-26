@@ -21,3 +21,10 @@ vim.keymap.set("n", "<leader>(", "viw<esc>a)<esc>hbi(<esc>", { desc = "add () su
 vim.keymap.set("n", "i", function()
   return string.match(vim.api.nvim_get_current_line(), "%g") == nil and "cc" or "i"
 end, { expr = true, noremap = true })
+
+-- Leetcode shortcuts
+vim.keymap.set("n", "<leader>lr", "<cmd>Leet run<cr>", { desc = "run current leetcode question" })
+vim.keymap.set("n", "<leader>lc", "<cmd>Leet console<cr>", { desc = "show leetcode console" })
+vim.keymap.set("n", "<leader>ls", "<cmd>Leet submit<cr>", { desc = "submit current leetcode question" })
+vim.keymap.set("n", "<leader>lm", "<cmd>Leet menu<cr>", { desc = "Leetcode menu page" })
+vim.keymap.set("n", "<leader>lh", "<cmd>Leet hints<cr>", { desc = "Leetcode hints/info page" })
