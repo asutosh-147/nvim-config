@@ -28,3 +28,4 @@ vim.keymap.set("n", "<leader>lc", "<cmd>Leet console<cr>", { desc = "show leetco
 vim.keymap.set("n", "<leader>ls", "<cmd>Leet submit<cr>", { desc = "submit current leetcode question" })
 vim.keymap.set("n", "<leader>lm", "<cmd>Leet menu<cr>", { desc = "Leetcode menu page" })
 vim.keymap.set("n", "<leader>lh", "<cmd>Leet hints<cr>", { desc = "Leetcode hints/info page" })
+vim.keymap.set("n", "<leader>lt", "<cmd>Leet tabs<cr>", { desc = "Leetcode open tabs" })
