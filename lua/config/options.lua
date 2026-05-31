@@ -23,3 +23,6 @@ vim.g.clipboard = {
 
 -- disable the animation
 vim.g.snacks_animate = false
+
+-- defining font
+vim.o.guifont = "JetBrainsMono Nerd Font Mono:h12"
