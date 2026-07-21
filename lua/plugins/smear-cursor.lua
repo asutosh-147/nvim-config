@@ -1,23 +1,24 @@
--- return {
---   "sphamba/smear-cursor.nvim",
---   keys = {
---     {
---       "<leader>uW",
---       function()
---         require("smear_cursor").toggle()
---       end,
---       desc = "toggle smear_cursor",
---     },
---   },
---
---   -- NOTE: for fasater smear
---   opts = {
---     stiffness = 0.8,
---     trailing_stiffness = 0.5,
---     stiffness_insert_mode = 0.6,
---     trailing_stiffness_insert_mode = 0.6,
---     distance_stop_animating = 0.5,
---     cursor_color = "none",
---     hide_target_hack = true,
---   },
--- }
+return {
+  "sphamba/smear-cursor.nvim",
+  enabled = false,
+  keys = {
+    {
+      "<leader>uW",
+      function()
+        require("smear_cursor").toggle()
+      end,
+      desc = "toggle smear_cursor",
+    },
+  },
+
+  -- NOTE: for fasater smear
+  opts = {
+    stiffness = 0.8,
+    trailing_stiffness = 0.5,
+    stiffness_insert_mode = 0.6,
+    trailing_stiffness_insert_mode = 0.6,
+    distance_stop_animating = 0.5,
+    cursor_color = "none",
+    hide_target_hack = true,
+  },
+}
